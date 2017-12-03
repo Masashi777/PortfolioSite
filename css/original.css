@@ -2,19 +2,41 @@
 /* CSS Document */
 /* Original Style */
 
-
-/*font-family: 'Slabo 27px', serif;*/
-
-@font-face {
-  font-family: "Roboto Slab";
-  font-weight: 400;
-  font-style: normal;
-  line-height: 0.5em;
-  src: url("https://fonts.googleapis.com/css?family=Roboto+Slab");
-}
-
 body {
-font-family:"Roboto Slab", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+font-family:"Roboto Slab", "Rounded Mplus 1c", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 color:#630;
 }
 
+header {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+/* row style */
+
+.main-pic {
+	margin-bottom: 50px;
+}
+
+.main-script {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	font-size: 16px;
+}
+
+
+.single-line {
+	display: inline-block;
+}
+
+
+/* img style */
+.instaPic {
+	max-width: 100%;
+	margin-bottom: 30px;
+}
