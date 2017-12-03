@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/* Original Style */
+
+
+/*font-family: 'Slabo 27px', serif;*/
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.5em;
+  src: url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+}
+
+body {
+font-family:"Roboto Slab", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+color:#630;
+}
+
